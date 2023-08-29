@@ -23,6 +23,7 @@ const App = () => {
       return
     }
     const newItems = menu.filter((item) => item.category === category)
+    //if item.category is === category, then add it to the array of newItem
     setMenuItems(newItems)
   }
   return (
