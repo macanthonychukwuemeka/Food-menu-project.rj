@@ -1,12 +1,12 @@
-import MenuItem from "./menuItem"
+import MenuItem from "./menuItem";
 
-const Menu = ({ items }) => {
+const Menu = ({ menuItems }) => {
   return (
-    <div className='section-center'>
-      {items.map((menuItem) => {
-        return <MenuItem key={menuItem.id} {...menuItem} />
+    <div className="section-center">
+      {menuItems.map((menuItem) => {
+        return <MenuItem key={menuItem.id} {...menuItem} />;
       })}
     </div>
-  )
-}
-export default Menu
+  );
+};
+export default Menu;
