@@ -1,4 +1,4 @@
-import MenuItem from "./menuItem";
+import MenuItem from "./MenuItem";
 
 const Menu = ({ menuItems }) => {
   return (
